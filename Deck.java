@@ -5,18 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Deck {
-/*
- *  i.     Fields
-		1.     cards (List of Card)
-	ii.    Methods
-  		1.     shuffle (randomizes the order of the cards)
-  		
-		2.     draw (removes and returns the top card of the Cards field)
-		
-		3.     In the constructor, when a new Deck is instantiated, the Cards field
-			should be populated with the standard 52 cards. 
- */
-	
 	// Fields
 	private List<Card> cards = new ArrayList<Card>();
 	private String[] suits = {"Ace", "Club", "Diamond", "Heart"};
